@@ -1,0 +1,11 @@
+# Matrix (Tutorial 31)
+
+matrix = [
+    [1,2,3],
+    [4,5,6],
+]
+#matrix[0][2] = 10
+#print(matrix[0][2])
+for row in matrix: #print element of a matrix
+    for col in row:
+        print(col)
